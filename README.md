@@ -1,14 +1,29 @@
-# zama-dapp
-Decentralized application built with Zama's homomorphic encryption technology.
 # Zama dApp
 
-Decentralized application prototype built with **Zama's homomorphic encryption (FHE)** technology.
+Decentralized application prototype built with **Zama's Fully Homomorphic Encryption (FHE)** technology.
 
-## Features
-- Rust backend with Warp
-- Example usage of Zama Concrete library
-- Ready for integration with frontend (React)
+## 📌 About the project
+This project is a **demo decentralized application (dApp)** that shows how to combine:
+- 🔒 **Zama Concrete** library for homomorphic encryption in Rust  
+- ⚙️ Rust backend (Warp + Tokio) for handling encrypted requests  
+- 🎨 React + Vite frontend for user interaction  
 
-## Run locally
+The idea:  
+Users can interact with a backend that applies **privacy-preserving computations** thanks to Zama's FHE. This can serve as a foundation for secure blockchain dApps where sensitive data never needs to be decrypted.
+
+---
+
+## 🚀 Tech stack
+- **Rust** (backend, encryption logic)
+- **Zama Concrete** (FHE computations)
+- **Warp** (async web server in Rust)
+- **React + Vite + TypeScript** (frontend dApp UI)
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone repository
 ```bash
-cargo run
+git clone https://github.com/pavlovanika/zama-dapp.git
+cd zama-dapp
